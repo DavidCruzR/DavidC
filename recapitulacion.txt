@@ -1,0 +1,3 @@
+En la clase de este dia se comprendi que para posicionar un sitio web como primero en los motores de busqueda se deden seguir indicaciones algunas de ellas son : usar titulos con 
+etiquetas h1 y h2, estructurar bien el menu.Se hablo que los requerimientos dependen del tipo de un siti web, ademas se conoci sobre goddaddy el cual se utiliza
+dominios  y verificar si estan ocupados. 
