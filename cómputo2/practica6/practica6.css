@@ -1,0 +1,21 @@
+
+/* Quitar el diseño o estilo  a las listas */
+ul{  
+	list-style-type:none; 
+}
+
+
+/* Establese el diseño para el contenedor del menu*/
+#all-menu  {  
+	width:auto;   /* ancho de contenedor del menu*/ 
+	height: 68px;  /*alto del contenedor del menu */
+	background-color:#0f71ba; /*color del contenedor del menu */
+}
+
+
+/*Al posicionar el puntero en una opcion del menu esta cambie de color*/
+#menu li a:hover{  	
+	background-color:#5DADE2;     /*Color al que cambiara la opcion al posicionar el puntero sobre ella (CAMBIADO DE ANARANJADO  POR CELESTE CLARO)*/ 
+	margin-top:-2px;        /*Margen superio que permite que el elemento del menu selecionado se salga 2px del contenedor.*/
+	font-weight:bold;    /*Establese el grosor y tipo de letra que cambiara al posicionar el puntero sobre la opcion  */ 
+}
