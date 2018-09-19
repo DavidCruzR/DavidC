@@ -19,3 +19,42 @@ ul{
 	margin-top:-2px;        /*Margen superio que permite que el elemento del menu selecionado se salga 2px del contenedor.*/
 	font-weight:bold;    /*Establese el grosor y tipo de letra que cambiara al posicionar el puntero sobre la opcion  */ 
 }
+
+
+
+/* Diseño del menu principal*/
+#menu li a{  
+	font-family:verdana;  /* tipo de letra verdana */
+	font-size:15px;       /* Tamaño de la letra */
+	display:block;        /* elementos del menu en bloque */
+	padding:25px;         /* establese el espacio de relleno de los elementos del menu*/
+	background-color:#0f71ba; /*Determina el color de los elementos del menu principal*/ 
+	color: #fff;		      /* color de la letra*/
+	text-decoration:none;	  /*quitar decoracion de las listas */
+	height:18px;              /*Determina el ancho de los elementos del menu pricipal */
+}
+ 
+ 
+ 
+/*dar forma al menu*/
+#menu > li{
+	float:left;   /*Ubica los submenus debajo del menu principal*/
+	
+}
+
+
+
+ /*Hace que los sub menus desaparescan*/
+#menu li ul {
+	display:none;         /*Hace que los submenus desaparescan */
+	position:absolute;   /*Los submenus creseran conforme al menu principal */
+	min-width:140px;    /*Determina la anchura minima de los elementos del menu*/
+}
+
+
+
+/*permite que al posicionar el puntero sobre el menu principal aparezcan los submenus */
+#menu li:hover > ul {
+	display:block; /* elementos del menu en bloque*/
+}
+
