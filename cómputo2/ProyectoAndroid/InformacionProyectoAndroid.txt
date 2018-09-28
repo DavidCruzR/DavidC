@@ -1,0 +1,9 @@
+
+REGISTRO DE VENTAS.
+
+Una tienda de accesorios para computadoras lleva un registro manual de las ventas realizadas
+a sus clientes.Se prentende realizar dicho registro de manera digital para tener un mayor 
+control y organizacion de las ventas.
+
+El registro estará formado por los siguientes campos:
+n°, Producto, Precio unitario, Cantidad, Total, Fecha de venta, Nombre del cliente, Direccion, Tel. 
