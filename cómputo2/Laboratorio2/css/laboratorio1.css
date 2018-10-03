@@ -3,6 +3,15 @@
 	background: #ddd;
 	border: 1px solid #fff;
 }
+
+
+.row > div > p{
+	color:blue;
+}
+.row span{
+	color:black;
+}
+
 .row{
 	margin:40px auto;
 
@@ -19,10 +28,6 @@ padding:0px;
 	font-family:Arial, Helvetica, sans-serif;
 }
 
-p{
-
-}
-			
 ul, ol {
 	list-style:none;
 }
@@ -33,15 +38,16 @@ ul, ol {
 }
 			
 .nav li a {
-	background-color:#0f71ba;
+	background-color:#4799B7;
 	color:#fff;
 	text-decoration:none;
 	padding:10px 12px;
 	display:block;
+	
 }
 			
 .nav li a:hover {
-	background-color:#434343;
+	background-color:#2C3D3B;
 }
 			
 .nav li ul {
